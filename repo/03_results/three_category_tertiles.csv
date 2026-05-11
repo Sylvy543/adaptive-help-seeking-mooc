@@ -1,0 +1,4 @@
+tertile,n,accuracy,kg_pct,other_process_pct,task_pct,selfreg_pct,self_pct
+Low (T1),5462,50.76,58.86,11.79,23.81,1.8,2.86
+Medium (T2),5464,75.98,55.56,13.25,25.72,2.0,2.67
+High (T3),5463,93.79,44.96,10.15,37.5,2.01,4.57

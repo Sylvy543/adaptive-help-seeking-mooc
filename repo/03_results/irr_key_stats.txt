@@ -1,0 +1,13 @@
+Inter-Rater Reliability Analysis Summary
+============================================================
+
+N items coded: 16
+Cohen's kappa: 0.7160
+95% bootstrap CI: [0.417, 1.000]
+Raw agreement: 13/16 = 81.2%
+Interpretation: substantial agreement (Landis & Koch, 1977)
+
+Disagreed items (3):
+  Item #4 (来自图灵机器人): C1=Self-Regulation (FR) vs C2=Self (FS)
+  Item #9 (来自 Aminer): C1=Task (FT) vs C2=Process (FP)
+  Item #10 (助教回答): C1=Other / Not Applicable vs C2=Task (FT)

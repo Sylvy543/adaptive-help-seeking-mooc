@@ -1,0 +1,7 @@
+Model,Predictor,Coefficient,SE,z,p
+OLS (no clustering),EF%,-0.0559,0.0111,-5.03,< .001
+Mixed (RE: course),EF%,+0.0021,0.0108,0.19,0.8467
+Mixed (RE: course),KG%,+0.0090,0.0097,0.93,0.3507
+Mixed three-cat,kg_pct,-0.0314,0.0219,-1.43,0.1516
+Mixed three-cat,other_process_pct,-0.0901,0.0293,-3.08,0.0021
+Mixed three-cat,task_pct_new,-0.0376,0.0233,-1.62,0.1056
