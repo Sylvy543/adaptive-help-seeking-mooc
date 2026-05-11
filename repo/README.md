@@ -13,10 +13,10 @@ If you use this code, please cite the manuscript as:
 
 ```
 Sen Ye,Fuyun Song. (2026). Adaptive help-seeking in AI-enhanced MOOCs: Evidence from
-large-scale learning analytics. Education and Information Technologies. [DOI to be added]
+large-scale learning analytics. Education and Information Technologies. https://doi.org/10.5281/zenodo.20117290
 ```
 
-A persistent DOI for the code archive is available via Zenodo: `[DOI to be added at acceptance]`
+A persistent DOI for the code archive is available via Zenodo: https://doi.org/10.5281/zenodo.20117290
 
 ## Data source
 
