@@ -70,3 +70,18 @@ Each script writes a figure to its working directory. The same figures appear in
 ## Reproducibility note
 
 All analyses use REML estimation where applicable, and all bootstrap CIs use a fixed random seed (`np.random.seed(42)`). Re-running on the same input data will reproduce the archived results in `../03_results/` exactly.
+
+### `predominantly_usage_trends.py` — Section 4.5 / Table 6
+
+Computes the linear trend coefficients for the "Predominantly Process" 
+and "Predominantly Task" usage pattern indicators reported in Table 6, 
+restricting to users with at least 2 AI interactions.
+
+**Key finding**: β = −6.65 (Predominantly Process) and β = +5.28 
+(Predominantly Task), both p < .001. The substantive trend pattern 
+(decreasing Predominantly Process and increasing Predominantly Task 
+across performance tertiles) is robust to operationalisation choices.
+
+**Inputs**: `combined_ai_learning_data.csv`
+**Outputs**: `predominantly_usage_trends_results.csv`, 
+`predominantly_usage_trends_summary.txt`
