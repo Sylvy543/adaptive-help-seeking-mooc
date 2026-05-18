@@ -1,0 +1,4 @@
+Indicator,beta,SE,t,p,p_label,significance
+Predominantly Process,-6.65,0.59,-11.26,2.9042663265792307e-29,2.90e-29,***
+Predominantly Task,5.28,0.375,14.09,1.1515743967921747e-44,1.15e-44,***
+Mixed / Balanced,1.36,0.581,2.35,0.018757085140470926,0.0188,*

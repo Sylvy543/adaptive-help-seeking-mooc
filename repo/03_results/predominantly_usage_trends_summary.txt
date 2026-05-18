@@ -1,0 +1,27 @@
+Predominantly Usage Pattern Trend Analysis — Summary
+============================================================
+
+Input file:         ../combined_ai_learning_data.csv
+Total sample:       N = 16,389
+Analytic sample:    N = 10,845 (>= 2 interactions)
+Threshold:          process_pct or task_pct > 80
+Method:             OLS linear regression on tertile rank
+
+Tertile percentages:
+  Predominantly Process: Low=54.1%, Medium=51.7%, High=40.8%
+  Predominantly Task: Low=7.7%, Medium=8.6%, High=18.3%
+  Mixed / Balanced: Low=38.2%, Medium=39.8%, High=40.9%
+
+Linear trend coefficients:
+  Predominantly Process     β = -6.65, SE = 0.590, t = -11.26, p < .001  ***
+  Predominantly Task        β = +5.28, SE = 0.375, t = +14.09, p < .001  ***
+  Mixed / Balanced          β = +1.36, SE = 0.581, t = +2.35, p = 0.0188  *
+
+Interpretation:
+  Per tertile step from Low to High performance, the rate of
+  predominantly-process engagement decreases substantially, while
+  the rate of predominantly-task engagement increases substantially.
+  This pattern is consistent with adaptive help-seeking theory:
+  lower-performing students disproportionately engage process-oriented
+  AI features, while higher-performing peers route engagement toward
+  more selective task-level lookups.
