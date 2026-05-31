@@ -1,16 +1,10 @@
-# Data files (do not commit raw MOOCCubeX data — it is large and licensed)
+# Raw MOOCCubeX data — large and licensed, do not commit
 data/
-*.json
-combined_ai_learning_data.csv
-user_course_accuracy.csv
-user-xiaomu.json
-user-problem.json
-problem.json
-course.json
 
-# Per-user intermediate files (large, can be regenerated)
-per_user_three_categories.csv
-multilevel_long_format.csv
+# user_course_accuracy.csv is not redistributed in the repo
+# (provided as Online Resource 5 with the manuscript;
+#  alternatively regenerate via 01_data_extraction/)
+user_course_accuracy.csv
 
 # Python
 __pycache__/
@@ -44,13 +38,7 @@ env/
 .DS_Store
 Thumbs.db
 
-# Generated figures (kept under version control intentionally is fine,
-# but uncomment the next two lines to exclude them)
-# *.png
-# *.pdf
-
 # Temporary
 *.tmp
 *.log
-
-!combined_ai_learning_data.csv
+*.bak
