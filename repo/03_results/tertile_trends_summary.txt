@@ -1,0 +1,31 @@
+Tertile Trend Analysis — Manuscript Table 5
+============================================================
+
+Input file:        combined_ai_learning_data.csv
+Total sample:      N = 16,389
+Tertile cutpoints: 67.5 and 84.0 (problem_accuracy)
+Tertile sizes:     Low = 5,465, Medium = 5,496, High = 5,428
+Predominant cutoff: usage percentage > 70
+Method:            OLS linear regression on tertile rank (1/2/3)
+
+Row statistics (mean [SD] per tertile; linear trend):
+
+  [Sample & Performance]
+    Problem Accuracy %       Low    50.77 (17.23)  Med    76.03 (4.65)  High    93.85 (5.49)  beta = +21.55, SE = 0.105, t = +205.89, p < .001  ***
+    Problems Attempted       Low    63.74 (335.95)  Med   106.50 (170.71)  High    98.48 (159.85)  beta = +17.40, SE = 2.268, t = +7.67, p < .001  ***
+  [AI Usage Quantity]
+    AI Frequency             Low     4.91 (15.39)  Med     5.55 (17.41)  High     5.25 (23.90)  beta = +0.17, SE = 0.184, t = +0.90, p = 0.366  ns
+    AI Frequency (Mdn)       Low     2.00  Med     2.00  High     2.00  (median row; no trend test)
+  [AI Usage Character]
+    Process Feedback %       Low    70.65 (40.24)  Med    68.78 (40.11)  High    55.07 (45.63)  beta = -7.78, SE = 0.404, t = -19.27, p < .001  ***
+    Task Feedback %          Low    20.24 (33.58)  Med    22.20 (34.32)  High    30.82 (40.51)  beta = +5.29, SE = 0.348, t = +15.21, p < .001  ***
+    Self-Regulation %        Low     5.37 (18.92)  Med     5.53 (19.02)  High     8.75 (24.60)  beta = +1.69, SE = 0.201, t = +8.39, p < .001  ***
+    Self Feedback %          Low     2.86 (12.49)  Med     2.70 (12.14)  High     4.55 (16.38)  beta = +0.84, SE = 0.132, t = +6.37, p < .001  ***
+    Effective Feedback %     Low    76.01 (36.56)  Med    74.31 (36.79)  High    63.82 (42.98)  beta = -6.09, SE = 0.373, t = -16.33, p < .001  ***
+  [Usage Patterns]
+    Predominantly Process    Low    64.67 (47.81)  Med    62.03 (48.54)  High    49.80 (50.00)  beta = -7.43, SE = 0.468, t = -15.88, p < .001  ***
+    Predominantly Task       Low    12.48 (33.05)  Med    13.56 (34.23)  High    23.16 (42.19)  beta = +5.33, SE = 0.352, t = +15.15, p < .001  ***
+    Mixed / Balanced         Low    22.85 (41.99)  Med    24.42 (42.96)  High    27.04 (44.42)  beta = +2.09, SE = 0.413, t = +5.07, p < .001  ***
+
+Note: *** p < .001, ** p < .01, * p < .05. The AI Frequency
+linear trend is the only non-significant row.

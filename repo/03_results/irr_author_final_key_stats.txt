@@ -1,0 +1,18 @@
+Inter-Rater Reliability — Author-Final Mapping
+============================================================
+
+Companion to compute_irr.py / irr_key_stats.txt.
+See Online Resource 1, Appendix A for full documentation.
+
+N items coded: 16
+
+Cohen's κ (Coder 1 vs Coder 2, author-final): 0.7433
+  95% bootstrap CI: [0.439, 1.000]
+  Raw agreement: 13/16 = 81.2%
+  Interpretation: substantial agreement (Landis & Koch, 1977)
+
+Coder 1 vs author-final: κ = 0.7551, agree 13/16
+Coder 2 vs author-final: κ = 0.8359, agree 14/16
+Mean (coders vs author-final): κ = 0.7955
+
+Reference (5-category raw, from compute_irr.py): κ = .716

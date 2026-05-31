@@ -1,0 +1,17 @@
+Item,Feature (CN),Feature (EN),C1 raw,C1 final,C2 raw,C2 final,Author-final
+1,知识图谱点击,Knowledge Graph Click,Process (FP),Process (FP),Process (FP),Process (FP),Process (FP)
+2,预设问答,Preset Q&A,Task (FT),Task (FT),Task (FT),Task (FT),Task (FT)
+3,来自 mooccube,From MOOCCube (Knowledge Base),Task (FT),Task (FT),Task (FT),Task (FT),Process (FP)
+4,来自图灵机器人,From Turing Bot (General Chatbot),Self-Regulation (FR),Self-Regulation (FR),Self (FS),Self (FS),Self (FS)
+5,来自 baidu,From Baidu (Search Engine),Task (FT),Task (FT),Task (FT),Task (FT),Task (FT)
+6,来自 baike,From Baike (Encyclopedia),Task (FT),Task (FT),Task (FT),Task (FT),Task (FT)
+7,作诗,Poetry Composition,Other / Not Applicable,Self (FS),Other / Not Applicable,Self (FS),Self (FS)
+8,来自 Faq,From FAQ (Platform Help),Other / Not Applicable,Self-Regulation (FR),Other / Not Applicable,Self-Regulation (FR),Self-Regulation (FR)
+9,来自 Aminer,From Aminer (Academic Search),Task (FT),Task (FT),Process (FP),Process (FP),Process (FP)
+10,助教回答,TA Answer Browser,Other / Not Applicable,Other,Task (FT),Task (FT),Other
+11,飘窗回答,Pop-up Reflection Question,Process (FP),Process (FP),Process (FP),Process (FP),Process (FP)
+12,cannot_answer,System Cannot Answer,Other / Not Applicable,Other,Other / Not Applicable,Other,Other
+13,问助教,Ask TA (Human),Other / Not Applicable,Self-Regulation (FR),Other / Not Applicable,Self-Regulation (FR),Self-Regulation (FR)
+14,加减乘除,Arithmetic Calculator,Other / Not Applicable,Task (FT),Other / Not Applicable,Task (FT),Task (FT)
+15,脏问题,Inappropriate Input (Filtered),Other / Not Applicable,Other,Other / Not Applicable,Other,Other
+16,来自课程信息,From Course Information,Other / Not Applicable,Task (FT),Other / Not Applicable,Task (FT),Task (FT)
