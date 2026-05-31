@@ -12,7 +12,7 @@ The repository archives all code used to produce the empirical findings reported
 If you use this code, please cite the manuscript as:
 
 ```
-[Author(s)]. (2026). Adaptive help-seeking in AI-enhanced MOOCs: Evidence from
+Sen Ye, Fuyun Song. (2026). Adaptive help-seeking in AI-enhanced MOOCs: Evidence from
 large-scale learning analytics. Education and Information Technologies. [DOI to be added]
 ```
 
