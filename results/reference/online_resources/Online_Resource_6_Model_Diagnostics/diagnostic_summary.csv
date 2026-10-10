@@ -1,0 +1,10 @@
+﻿statistic,value
+full_sample_cells,1983
+full_sample_students,1708
+full_sample_courses,396
+binomial_pearson_dispersion,10.011653628229167
+extreme_courses_excluded,22
+dispersion_after_extreme_course_exclusion,10.056149866575987
+top10_share_of_pearson_sum,0.7217728543522322
+loco_min_dispersion,7.887001356021966
+loco_max_dispersion,11.076586753837068

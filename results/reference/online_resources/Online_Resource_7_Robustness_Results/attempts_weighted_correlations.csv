@@ -1,0 +1,7 @@
+variable,method,n,r,ci_low,ci_high,ci_method,weight
+effective_feedback_pct,weighted_pearson,16389,-0.12602416663379892,-0.17961914025286205,-0.06552607445139408,"paired row bootstrap with weights, B=10000, seed=20260921",n_attempts (strict_valid_records)
+kg_pct,weighted_pearson,16389,-0.09512952218376157,-0.15077761736712722,-0.026331861542327074,"paired row bootstrap with weights, B=10000, seed=20260921",n_attempts (strict_valid_records)
+kg_count,weighted_pearson,16389,-0.01125035062320174,-0.05713159168838658,0.024304868892582265,"paired row bootstrap with weights, B=10000, seed=20260921",n_attempts (strict_valid_records)
+other_process_pct,weighted_pearson,16389,-0.07678269207836377,-0.12783004014805244,-0.028008185041382753,"paired row bootstrap with weights, B=10000, seed=20260921",n_attempts (strict_valid_records)
+task_pct_neutral,weighted_pearson,16389,0.1139262588323692,0.040360534703700886,0.17352821104420443,"paired row bootstrap with weights, B=10000, seed=20260921",n_attempts (strict_valid_records)
+ai_frequency,weighted_pearson,16389,-0.011089698343109536,-0.047969374182476314,0.020554517108138638,"paired row bootstrap with weights, B=10000, seed=20260921",n_attempts (strict_valid_records)

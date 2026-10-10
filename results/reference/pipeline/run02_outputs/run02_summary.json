@@ -1,0 +1,131 @@
+{
+  "version": "2026-09-18-v2",
+  "status": "REVIEW_REQUIRED",
+  "n_student": 16389,
+  "n_course_cells": 2496,
+  "n_course_ge5": 1983,
+  "strict_missing": 0,
+  "strict_vs_historical": {
+    "records": 1468220,
+    "correct_strict": 1129609,
+    "correct_historical": 1132097,
+    "users_changed": 1064,
+    "mean_pp_change": -0.16541007169511884,
+    "median_pp_change": 0.0
+  },
+  "models": [
+    {
+      "model": "student_ols_log_frequency",
+      "nobs": 16389.0,
+      "converged": null,
+      "aic": 145893.2268172368,
+      "bic": 145908.63554855093,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "model": "student_ols_kg_share",
+      "nobs": 16389.0,
+      "converged": null,
+      "aic": 145706.94720670301,
+      "bic": 145730.0603036742,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "model": "student_ols_kg_count",
+      "nobs": 16389.0,
+      "converged": null,
+      "aic": 145893.1225521778,
+      "bic": 145916.235649149,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "model": "course_ols_composition",
+      "nobs": 1983.0,
+      "converged": null,
+      "aic": 17474.694387563875,
+      "bic": 17508.248584334993,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "model": "course_ols_kg",
+      "nobs": 1983.0,
+      "converged": null,
+      "aic": 17491.85734550656,
+      "bic": 17508.63444389212,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "model": "course_binomial_fixed_course",
+      "nobs": 1983.0,
+      "converged": true,
+      "aic": 22859.357982600886,
+      "bic": 3372.9451948647475,
+      "error": null,
+      "pearson_dispersion": 10.011653628229162,
+      "warnings": [
+        "The bic value is computed using the deviance formula. After 0.13 this will change to the log-likelihood based formula. This change has no impact on the relative rank of models compared using BIC. You can directly access the log-likelihood version using the `bic_llf` attribute. You can suppress this message by calling statsmodels.genmod.generalized_linear_model.SET_USE_BIC_LLF with True to get the LLF-based version now or False to retainthe deviance version."
+      ]
+    },
+    {
+      "model": "course_mixed_course_random",
+      "nobs": 1983.0,
+      "converged": true,
+      "aic": NaN,
+      "bic": NaN,
+      "error": null,
+      "variance_components": {},
+      "random_intercept_covariance": [
+        [
+          167.1933055098801
+        ]
+      ],
+      "residual_variance": 264.2405392523158,
+      "warnings": [
+        "Random effects covariance is singular"
+      ]
+    },
+    {
+      "model": "course_mixed_kg_course_random",
+      "nobs": 1983.0,
+      "converged": true,
+      "aic": NaN,
+      "bic": NaN,
+      "error": null,
+      "variance_components": {},
+      "random_intercept_covariance": [
+        [
+          171.33691842152024
+        ]
+      ],
+      "residual_variance": 264.7999582544493,
+      "warnings": [
+        "Random effects covariance is singular"
+      ]
+    },
+    {
+      "model": "course_mixed_crossed_user_course",
+      "nobs": 1983.0,
+      "converged": true,
+      "aic": NaN,
+      "bic": NaN,
+      "error": null,
+      "variance_components": {
+        "course": 160.46655150850034,
+        "user": 87.89467920025781
+      },
+      "random_intercept_covariance": [],
+      "residual_variance": 167.869942425693,
+      "warnings": []
+    }
+  ],
+  "notes": [
+    "Percentages are per-student or per-student-course shares of recorded AI interaction rows.",
+    "Strict outcome uses raw is_correct; historical outcome retains the old score==1 OR rule.",
+    "Neutral feature names do not assert Hattie–Timperley feedback levels."
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "status": "PASS",
+  "tables_checked": 42,
+  "failures": [],
+  "comparisons": [
+    {
+      "table": "Online_Resource_4_Three_Category_Results/three_category_correlations.csv",
+      "rows": 5,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_4_Three_Category_Results/three_category_student_data.csv",
+      "rows": 16389,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_4_Three_Category_Results/three_category_tertiles.csv",
+      "rows": 3,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_4_Three_Category_Results/three_category_ttests.csv",
+      "rows": 5,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_5_user_course_accuracy/Online_Resource_5_user_course_accuracy.csv",
+      "rows": 2496,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_5_user_course_accuracy/accuracy_definition_comparison_summary.csv",
+      "rows": 1,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_5_user_course_accuracy/accuracy_definition_correlation_comparison.csv",
+      "rows": 10,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_5_user_course_accuracy/student_accuracy_definition_comparison.csv",
+      "rows": 16389,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_6_Model_Diagnostics/binomial_full_sample_coefficients.csv",
+      "rows": 5,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_6_Model_Diagnostics/binomial_refit_comparison.csv",
+      "rows": 5,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_6_Model_Diagnostics/course_random_vs_crossed.csv",
+      "rows": 5,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_6_Model_Diagnostics/crossed_model_fixed_effects.csv",
+      "rows": 6,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_6_Model_Diagnostics/crossed_model_variance_components.csv",
+      "rows": 3,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_6_Model_Diagnostics/diagnostic_summary.csv",
+      "rows": 9,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_6_Model_Diagnostics/dispersion_by_cell_size.csv",
+      "rows": 5,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_6_Model_Diagnostics/extended_variance_profile_course_mixed_course_random.csv",
+      "rows": 21,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_6_Model_Diagnostics/extended_variance_profile_course_mixed_kg_course_random.csv",
+      "rows": 21,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_6_Model_Diagnostics/extreme_courses.csv",
+      "rows": 22,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_6_Model_Diagnostics/high_contribution_courses.csv",
+      "rows": 396,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_6_Model_Diagnostics/loco_sensitivity.csv",
+      "rows": 10,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_6_Model_Diagnostics/loco_sign_change_summary.csv",
+      "rows": 5,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_6_Model_Diagnostics/optimizer_stability.csv",
+      "rows": 10,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_6_Model_Diagnostics/single_course_recheck.csv",
+      "rows": 2,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/alternative_operationalizations_ols.csv",
+      "rows": 4,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/attempts_models.csv",
+      "rows": 24,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/attempts_strata_correlations.csv",
+      "rows": 48,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/attempts_strata_descriptives.csv",
+      "rows": 4,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/attempts_subsample_correlations.csv",
+      "rows": 36,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/attempts_weighted_correlations.csv",
+      "rows": 6,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/coder_anchored_correlations.csv",
+      "rows": 4,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/coder_anchored_feature_mapping.csv",
+      "rows": 16,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/coder_anchored_student_counts.csv",
+      "rows": 16389,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/full_sample_correlations_final.csv",
+      "rows": 28,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/multiplicity_family48.csv",
+      "rows": 48,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/multiplicity_family60.csv",
+      "rows": 60,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/section42_operationalisations.csv",
+      "rows": 9,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/section44_trends_hc3.csv",
+      "rows": 3,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/section44_tukey.csv",
+      "rows": 21,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/spearman_bootstrap_cis_attempts.csv",
+      "rows": 36,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/strict_student_model_data.csv",
+      "rows": 16389,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/tertile_comparisons_high_minus_low.csv",
+      "rows": 5,
+      "different_columns": []
+    },
+    {
+      "table": "Online_Resource_7_Robustness_Results/within_accuracy_groups_correlations.csv",
+      "rows": 3,
+      "different_columns": []
+    }
+  ],
+  "tolerances": "Numeric rtol=1e-6, atol=1e-9; p/q rtol=1e-5, atol=1e-250. Text exact except provenance/method/warning descriptions."
+}

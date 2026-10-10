@@ -1,0 +1,5 @@
+variable,method,n,r,ci_low,ci_high,note
+other_share,pearson,16389,0.002641529603810748,-0.012669070500228991,0.017950891373821245,
+other_share,spearman,16389,-0.003600158902527635,,,CI from paired bootstrap; see spearman_bootstrap_cis.csv
+ef_mapped_only,pearson,16337,-0.1033725453274793,-0.11851910835785978,-0.08817788661973662,
+ef_mapped_only,spearman,16337,-0.10391528201154435,,,CI from paired bootstrap; see spearman_bootstrap_cis.csv

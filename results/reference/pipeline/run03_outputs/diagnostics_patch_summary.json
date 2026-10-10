@@ -1,0 +1,124 @@
+{
+  "version": "2026-09-18-v1-patch",
+  "status": "PATCH_COMPLETE_REVIEW_REQUIRED",
+  "corrections": [
+    "dispersion_scaled_terms.csv and the scaled_terms field in run03_summary.json are WITHDRAWN: the binomial fit already used student-clustered robust covariance; multiplying by sqrt(dispersion) double-inflates uncertainty and is not a standard quasi-binomial procedure. Cluster-robust standard errors from the full-sample fit remain the inference basis.",
+    "The run03 conclusion of \"systemic extra-binomial variation\" is narrowed: the source of overdispersion is not yet determined; high Pearson contribution does not by itself identify an abnormal course.",
+    "run03 variance profiles covered only the MLE neighborhood and cannot exclude a boundary solution; this patch extends the grids toward small variances."
+  ],
+  "binomial_fit": {
+    "converged": true,
+    "llf": -11028.678991300443,
+    "pearson_dispersion": 10.01165362822916,
+    "nobs": 1983,
+    "df_resid": 1582.0,
+    "warnings": [],
+    "covariance": "cluster-robust by student (HC cluster); NO dispersion rescaling applied",
+    "ai_terms": [
+      {
+        "term": "kg_pct10",
+        "estimate": -0.008200413464346603,
+        "se_cluster": 0.0294109178345181,
+        "ci_low": -0.06584475317226883,
+        "ci_high": 0.04944392624357563,
+        "p": 0.7803813641022516
+      },
+      {
+        "term": "other_process_pct10",
+        "estimate": -0.030820975918592994,
+        "se_cluster": 0.03792269980437787,
+        "ci_low": -0.10514810173169777,
+        "ci_high": 0.04350614989451178,
+        "p": 0.41637196810631294
+      },
+      {
+        "term": "task_pct_neutral10",
+        "estimate": -0.013902401027830878,
+        "se_cluster": 0.031843715989455644,
+        "ci_low": -0.0763149375010862,
+        "ci_high": 0.048510135445424436,
+        "p": 0.6624143410171738
+      },
+      {
+        "term": "selfreg_pct_neutral10",
+        "estimate": -0.0020930656879017597,
+        "se_cluster": 0.033729429391496625,
+        "ci_low": -0.06820153251432189,
+        "ci_high": 0.06401540113851838,
+        "p": 0.9505193644803952
+      },
+      {
+        "term": "log_ai_frequency",
+        "estimate": -0.05072147872730835,
+        "se_cluster": 0.04364221933353444,
+        "ci_low": -0.1362586568264335,
+        "ci_high": 0.03481569937181679,
+        "p": 0.24514966191245913
+      }
+    ]
+  },
+  "loco": {
+    "reference": "full-sample fit retained",
+    "n_exclusions": 10,
+    "max_abs_change_in_se_units": {
+      "kg_pct10": 1.2019889181232009,
+      "other_process_pct10": 1.065259301519672,
+      "task_pct_neutral10": 1.2771476259405523,
+      "selfreg_pct_neutral10": 0.5874804976315048,
+      "log_ai_frequency": 0.8274022413987041
+    },
+    "any_sign_change": true,
+    "dispersion_range": [
+      7.887001356021966,
+      11.076586753837068
+    ]
+  },
+  "extended_profiles": {
+    "course_mixed_course_random": {
+      "profile_ok": true,
+      "variance_at_mle": 167.19330550989292,
+      "variance_grid_min": 2.809140286275452,
+      "variance_grid_max": 176.0773612437247,
+      "max_at_grid_edge": false,
+      "llf_at_mle": -8530.202457355193,
+      "llf_at_smallest_grid_variance": -8685.767933116213
+    },
+    "course_mixed_kg_course_random": {
+      "profile_ok": true,
+      "variance_at_mle": 171.3369184214993,
+      "variance_grid_min": 2.8241374914613373,
+      "variance_grid_max": 180.21287089107483,
+      "max_at_grid_edge": false,
+      "llf_at_mle": -8534.546482180725,
+      "llf_at_smallest_grid_variance": -8693.262334383024
+    }
+  },
+  "high_contribution": {
+    "top10_share": 0.7217728543522322,
+    "top10_ids": [
+      "C_1822804",
+      "C_737592",
+      "C_845950",
+      "C_746997",
+      "C_674920",
+      "C_735342",
+      "C_1756063",
+      "C_707456",
+      "C_947252",
+      "C_947250"
+    ],
+    "top10_n_records_range": [
+      888,
+      34044
+    ],
+    "top10_separated_count": 0,
+    "note": "Pearson share scales with course size; membership in this list is not evidence of abnormality."
+  },
+  "decision_notes": [
+    "Binomial full-sample fit converged with no warnings; cluster-robust SEs retained as inference basis.",
+    "LOCO: at least one exclusion changed an AI-term sign; inspect loco_sensitivity.csv before interpreting.",
+    "course_mixed_course_random: extended profile grid [2.8, 176.1], max at grid edge=False, llf drop from MLE to smallest grid variance=155.565.",
+    "course_mixed_kg_course_random: extended profile grid [2.8, 180.2], max at grid edge=False, llf drop from MLE to smallest grid variance=158.716.",
+    "Overdispersion source remains undetermined; candidate count models are decided separately from these diagnostics, not by dispersion size alone."
+  ]
+}

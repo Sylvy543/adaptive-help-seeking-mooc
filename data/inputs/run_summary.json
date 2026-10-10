@@ -1,0 +1,65 @@
+{
+  "version": "2026-09-17-v1",
+  "full_scan_complete": true,
+  "physical_lines": 133384333,
+  "ai_rows": 108351,
+  "ai_users": 21436,
+  "main_users": 16389,
+  "main_difference_entries": 0,
+  "legacy_course_difference_cells": 0,
+  "archived_long_membership_difference": 0,
+  "legacy_course_sample": {
+    "cells": 2496,
+    "users": 2092,
+    "courses": 461
+  },
+  "legacy_course_ge5": {
+    "cells": 1983,
+    "users": 1708,
+    "courses": 396
+  },
+  "unique_binary_course_sample": {
+    "cells": 2496,
+    "users": 2092,
+    "courses": 461
+  },
+  "unique_binary_course_ge5": {
+    "cells": 1983,
+    "users": 1708,
+    "courses": 396
+  },
+  "duplicate_checks_ai_users_only": {
+    "log_id": {
+      "groups": 0,
+      "excess_rows": 0
+    },
+    "user_problem": {
+      "groups": 0,
+      "excess_rows": 0
+    }
+  },
+  "ai_read_counts": {},
+  "linkage_counts": {
+    "ambiguous_exercises": 0,
+    "unique_problem_ids": 2454422,
+    "linked_problem_ids": 272790,
+    "ambiguous_problem_ids": 0
+  },
+  "response_scan_counts": {
+    "valid_response_records": 133384333,
+    "ai_user_response_rows": 1468220,
+    "is_correct_value_1": 1129609,
+    "is_correct_value_0": 338611,
+    "rows_with_attempts_gt_1": 21987,
+    "historical_vs_strict_correct_disagreement": 2488
+  },
+  "parse_examples": [],
+  "issues_requiring_review": {},
+  "status": "REVIEW_REQUIRED",
+  "notes": [
+    "Counts are records, not the sum of the attempts field.",
+    "Unique-course/binary outputs are candidate sensitivity inputs, not approved final analysis datasets.",
+    "Matching historical values does not validate feedback constructs or causal claims.",
+    "Signatures use sampled hashes, size and mtime, not whole-file SHA256."
+  ]
+}

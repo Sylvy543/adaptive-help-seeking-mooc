@@ -1,0 +1,4 @@
+﻿component,estimated_variance,share_of_variance_components_pct,interpretation
+course,160.4665515085,38.552266592643505,conditional on included fixed effects; not percentage of total observed outcome variance
+user,87.8946792003,21.11679395332024,conditional on included fixed effects; not percentage of total observed outcome variance
+residual,167.8699424257,40.33093945403625,conditional on included fixed effects; not percentage of total observed outcome variance

@@ -1,0 +1,128 @@
+[
+  {
+    "script": "analysis/compute_irr.py",
+    "returncode": 0,
+    "seconds": 0.61,
+    "log": "logs/compute_irr.log"
+  },
+  {
+    "script": "analysis/02_strict_models.py",
+    "returncode": 0,
+    "seconds": 9.938,
+    "log": "logs/02_strict_models.log"
+  },
+  {
+    "script": "analysis/03_diagnostics.py",
+    "returncode": 0,
+    "seconds": 17.835,
+    "log": "logs/03_diagnostics.log"
+  },
+  {
+    "script": "analysis/03b_diagnostics_patch.py",
+    "returncode": 0,
+    "seconds": 10.063,
+    "log": "logs/03b_diagnostics_patch.log"
+  },
+  {
+    "script": "analysis/04_remaining_analyses.py",
+    "returncode": 0,
+    "seconds": 0.786,
+    "log": "logs/04_remaining_analyses.log"
+  },
+  {
+    "script": "analysis/04b_corrections.py",
+    "returncode": 0,
+    "seconds": 127.178,
+    "log": "logs/04b_corrections.log"
+  },
+  {
+    "script": "analysis/04c_mapping_and_pvalues.py",
+    "returncode": 0,
+    "seconds": 24.786,
+    "log": "logs/04c_mapping_and_pvalues.log"
+  },
+  {
+    "script": "analysis/05_attempts_stratified.py",
+    "returncode": 0,
+    "seconds": 61.466,
+    "log": "logs/05_attempts_stratified.log"
+  },
+  {
+    "script": "analysis/07_table6_trend_cis.py",
+    "returncode": 0,
+    "seconds": 1.0,
+    "log": "logs/07_table6_trend_cis.log"
+  },
+  {
+    "script": "analysis/compute_irr_author_final.py",
+    "returncode": 0,
+    "seconds": 0.283,
+    "log": "logs/compute_irr_author_final.log"
+  },
+  {
+    "script": "analysis/08_final_checks.py",
+    "returncode": 0,
+    "seconds": 168.578,
+    "log": "logs/08_final_checks.log"
+  },
+  {
+    "script": "analysis/curate_online_resources.py",
+    "returncode": 0,
+    "seconds": 1.103,
+    "log": "logs/curate_online_resources.log"
+  },
+  {
+    "script": "analysis/three_category_analysis.py",
+    "returncode": 0,
+    "seconds": 0.632,
+    "log": "logs/three_category_analysis.log"
+  },
+  {
+    "script": "tools/compare_results.py",
+    "returncode": 0,
+    "seconds": 0.365,
+    "log": "logs/compare_results.log"
+  },
+  {
+    "script": "figures/scripts/figure1.py",
+    "returncode": 0,
+    "seconds": 12.008,
+    "log": "logs/figure1.log"
+  },
+  {
+    "script": "figures/scripts/figure2.py",
+    "returncode": 0,
+    "seconds": 2.968,
+    "log": "logs/figure2.log"
+  },
+  {
+    "script": "figures/scripts/figure3.py",
+    "returncode": 0,
+    "seconds": 2.426,
+    "log": "logs/figure3.log"
+  },
+  {
+    "script": "figures/scripts/figure4.py",
+    "returncode": 0,
+    "seconds": 2.347,
+    "log": "logs/figure4.log"
+  },
+  {
+    "script": "figures/scripts/figure5.py",
+    "returncode": 0,
+    "seconds": 3.271,
+    "log": "logs/figure5.log"
+  },
+  {
+    "script": "figures/scripts/figure6.py",
+    "returncode": 0,
+    "seconds": 1.702,
+    "log": "logs/figure6.log"
+  },
+  {
+    "script": "analysis/OR3_recompute_and_plot.py",
+    "returncode": 0,
+    "seconds": 2.129,
+    "log": "logs/OR3_recompute_and_plot.log"
+  }
+]

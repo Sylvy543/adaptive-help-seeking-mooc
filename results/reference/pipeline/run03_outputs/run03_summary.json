@@ -1,0 +1,209 @@
+{
+  "version": "2026-09-18-v1",
+  "status": "DIAGNOSTICS_COMPLETE_REVIEW_REQUIRED",
+  "n_cells": 1983,
+  "A_mixed_singular": {
+    "course_mixed_course_random": {
+      "optimizer_stability": {
+        "course_var": {
+          "min": 167.18055482539208,
+          "max": 167.20059924179319,
+          "spread": 0.02004441640110599,
+          "rel_spread": 0.00011988897989191102
+        },
+        "residual_var": {
+          "min": 264.2391293559105,
+          "max": 264.2430041691252,
+          "spread": 0.003874813214679307,
+          "rel_spread": 1.4663942407783874e-05
+        },
+        "kg_pct10": {
+          "min": -0.4682705448886324,
+          "max": -0.46826337164812504,
+          "spread": 7.173240507363232e-06,
+          "rel_spread": 1.53187094473304e-05
+        }
+      },
+      "profile": {
+        "profile_ok": true,
+        "variance_at_mle": 167.19330550989292,
+        "max_at_grid_edge": false,
+        "variance_grid_min": 143.9556811636379,
+        "variance_grid_max": 190.06858830928073,
+        "llf_at_mle": -8530.202457355193,
+        "llf_at_grid_edge": -8530.872674953282
+      }
+    },
+    "course_mixed_kg_course_random": {
+      "optimizer_stability": {
+        "course_var": {
+          "min": 171.33418043073465,
+          "max": 171.34324572441218,
+          "spread": 0.009065293677537056,
+          "rel_spread": 5.2908820105333e-05
+        },
+        "residual_var": {
+          "min": 264.7987515495038,
+          "max": 264.8004804442127,
+          "spread": 0.001728894708946882,
+          "rel_spread": 6.529064884461843e-06
+        },
+        "kg_pct10": {
+          "min": 0.06808907428836321,
+          "max": 0.06809069600004046,
+          "spread": 1.6217116772521134e-06,
+          "rel_spread": 2.3817260521930647e-05
+        }
+      },
+      "profile": {
+        "profile_ok": true,
+        "variance_at_mle": 171.3369184214993,
+        "max_at_grid_edge": false,
+        "variance_grid_min": 147.83773109583626,
+        "variance_grid_max": 194.47282512105997,
+        "llf_at_mle": -8534.546482180725,
+        "llf_at_grid_edge": -8535.204967523321
+      }
+    },
+    "fixed_effect_comparison": [
+      {
+        "term": "kg_pct10",
+        "course_random_est": -0.4682659817372921,
+        "crossed_est": -0.3875576753443642,
+        "abs_diff": 0.08070830639292792,
+        "crossed_ci_width": 1.002045473672179
+      },
+      {
+        "term": "other_process_pct10",
+        "course_random_est": -1.0136566155777358,
+        "crossed_est": -0.713572796759924,
+        "abs_diff": 0.30008381881781176,
+        "crossed_ci_width": 1.2775314777228075
+      },
+      {
+        "term": "task_pct_neutral10",
+        "course_random_est": -0.5657677300858248,
+        "crossed_est": -0.4101084169037276,
+        "abs_diff": 0.1556593131820972,
+        "crossed_ci_width": 1.0490905212424355
+      },
+      {
+        "term": "selfreg_pct_neutral10",
+        "course_random_est": -0.3133720386944796,
+        "crossed_est": -0.2735265524419012,
+        "abs_diff": 0.03984548625257839,
+        "crossed_ci_width": 1.2197731896966382
+      },
+      {
+        "term": "log_ai_frequency",
+        "course_random_est": -1.0422977768374386,
+        "crossed_est": -0.94069468555806,
+        "abs_diff": 0.10160309127937861,
+        "crossed_ci_width": 1.9609313759817373
+      }
+    ]
+  },
+  "B_binomial": {
+    "pearson_dispersion_full": 10.01165362822916,
+    "top10_course_pearson_share": 0.7217728543522322,
+    "n_extreme_courses": 22,
+    "extreme_course_ids": [
+      "C_1438319",
+      "C_1557390",
+      "C_1696155",
+      "C_1755929",
+      "C_1767581",
+      "C_1767591",
+      "C_1771168",
+      "C_1791152",
+      "C_1824376",
+      "C_1886696",
+      "C_2053613",
+      "C_2066096",
+      "C_2093531",
+      "C_2097699",
+      "C_2221551",
+      "C_2229913",
+      "C_2287011",
+      "C_681744",
+      "C_735361",
+      "C_746983",
+      "C_837690",
+      "C_947158"
+    ],
+    "pearson_dispersion_excl_extreme": 10.056149866575987,
+    "dispersion_by_cell_size": [
+      {
+        "n_records_bin": "5-9",
+        "cells": 301,
+        "mean_pearson_sq": 1.4007691729665817
+      },
+      {
+        "n_records_bin": "10-19",
+        "cells": 360,
+        "mean_pearson_sq": 2.0361771469716836
+      },
+      {
+        "n_records_bin": "20-49",
+        "cells": 464,
+        "mean_pearson_sq": 2.7589247953742433
+      },
+      {
+        "n_records_bin": "50-99",
+        "cells": 297,
+        "mean_pearson_sq": 7.6424058299643125
+      },
+      {
+        "n_records_bin": "100+",
+        "cells": 561,
+        "mean_pearson_sq": 19.846426219844446
+      }
+    ],
+    "refit_comparison": [
+      {
+        "term": "kg_pct10",
+        "full_est": -0.008200413464346603,
+        "full_p": 0.7803813641022516,
+        "excl_extreme_est": -0.008200413464346452,
+        "excl_extreme_p": 0.7792769408644655,
+        "sign_change": false
+      },
+      {
+        "term": "other_process_pct10",
+        "full_est": -0.030820975918592994,
+        "full_p": 0.41637196810631294,
+        "excl_extreme_est": -0.030820975918591578,
+        "excl_extreme_p": 0.4139700960541767,
+        "sign_change": false
+      },
+      {
+        "term": "task_pct_neutral10",
+        "full_est": -0.013902401027830878,
+        "full_p": 0.6624143410171738,
+        "excl_extreme_est": -0.013902401027830327,
+        "excl_extreme_p": 0.6607803864408539,
+        "sign_change": false
+      },
+      {
+        "term": "selfreg_pct_neutral10",
+        "full_est": -0.0020930656879017597,
+        "full_p": 0.9505193644803952,
+        "excl_extreme_est": -0.0020930656879021283,
+        "excl_extreme_p": 0.9502642645031433,
+        "sign_change": false
+      },
+      {
+        "term": "log_ai_frequency",
+        "full_est": -0.05072147872730835,
+        "full_p": 0.24514966191245913,
+        "excl_extreme_est": -0.050721478727310504,
+        "excl_extreme_p": 0.24272172210090004,
+        "sign_change": false
+      }
+    ]
+  },
+  "decision_notes": [
+    "Optimizer warnings are retained. Extended variance profiles and corrected binomial diagnostics are supplied by stage03b.",
+    "Excluding extreme courses does not establish the source of overdispersion. No dispersion rescaling of cluster-robust covariance is performed."
+  ]
+}

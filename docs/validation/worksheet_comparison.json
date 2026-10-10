@@ -1,0 +1,235 @@
+{
+  "status": "PASS",
+  "worksheets_checked": 38,
+  "comparisons": [
+    {
+      "workbook": "OR5_Accuracy_Data.xlsx",
+      "worksheet": "User-course accuracy",
+      "rows": 2496,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR5_Accuracy_Data.xlsx",
+      "worksheet": "Student comparison",
+      "rows": 16389,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR5_Accuracy_Data.xlsx",
+      "worksheet": "Definition summary",
+      "rows": 1,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR5_Accuracy_Data.xlsx",
+      "worksheet": "Correlation comparison",
+      "rows": 10,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR6_Model_Diagnostics.xlsx",
+      "worksheet": "Diagnostic summary",
+      "rows": 9,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR6_Model_Diagnostics.xlsx",
+      "worksheet": "Crossed fixed effects",
+      "rows": 6,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR6_Model_Diagnostics.xlsx",
+      "worksheet": "Variance components",
+      "rows": 3,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR6_Model_Diagnostics.xlsx",
+      "worksheet": "Binomial coefficients",
+      "rows": 5,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR6_Model_Diagnostics.xlsx",
+      "worksheet": "LOCO summary",
+      "rows": 5,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR6_Model_Diagnostics.xlsx",
+      "worksheet": "LOCO exclusions",
+      "rows": 10,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR6_Model_Diagnostics.xlsx",
+      "worksheet": "Pearson contributions",
+      "rows": 396,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR6_Model_Diagnostics.xlsx",
+      "worksheet": "Extreme courses",
+      "rows": 22,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR6_Model_Diagnostics.xlsx",
+      "worksheet": "Extreme exclusion check",
+      "rows": 5,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR6_Model_Diagnostics.xlsx",
+      "worksheet": "Dispersion by cell size",
+      "rows": 5,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR6_Model_Diagnostics.xlsx",
+      "worksheet": "Optimizer stability",
+      "rows": 10,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR6_Model_Diagnostics.xlsx",
+      "worksheet": "Composition variance profile",
+      "rows": 21,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR6_Model_Diagnostics.xlsx",
+      "worksheet": "KG variance profile",
+      "rows": 21,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR6_Model_Diagnostics.xlsx",
+      "worksheet": "Course vs crossed",
+      "rows": 5,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR6_Model_Diagnostics.xlsx",
+      "worksheet": "Single course check",
+      "rows": 2,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "BH family 48",
+      "rows": 48,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "BH family 60",
+      "rows": 60,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "Full sample correlations",
+      "rows": 28,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "Coder anchored correlations",
+      "rows": 4,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "Coder feature mapping",
+      "rows": 16,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "Alternative OLS",
+      "rows": 4,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "High minus low comparisons",
+      "rows": 5,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "Within accuracy groups",
+      "rows": 3,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "Record strata descriptives",
+      "rows": 4,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "Record strata correlations",
+      "rows": 48,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "Record subsample correlations",
+      "rows": 36,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "Record weighted correlations",
+      "rows": 6,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "Record sensitivity models",
+      "rows": 24,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "Record bootstrap intervals",
+      "rows": 36,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "Frequency operationalisations",
+      "rows": 9,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "Frequency trends",
+      "rows": 3,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "Frequency Tukey",
+      "rows": 21,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "Student analysis input",
+      "rows": 16389,
+      "different_columns": []
+    },
+    {
+      "workbook": "OR7_Robustness_Results.xlsx",
+      "worksheet": "Coder student counts",
+      "rows": 16389,
+      "different_columns": []
+    }
+  ],
+  "numeric_tolerance": "rtol=1e-10, atol=1e-250"
+}

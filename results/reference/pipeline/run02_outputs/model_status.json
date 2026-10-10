@@ -1,0 +1,154 @@
+[
+  {
+    "model":"student_ols_log_frequency",
+    "nobs":16389.0,
+    "converged":null,
+    "aic":145893.2268172368,
+    "bic":145908.6355485509,
+    "error":null,
+    "warnings":[
+
+    ],
+    "pearson_dispersion":null,
+    "variance_components":null,
+    "random_intercept_covariance":null,
+    "residual_variance":null
+  },
+  {
+    "model":"student_ols_kg_share",
+    "nobs":16389.0,
+    "converged":null,
+    "aic":145706.947206703,
+    "bic":145730.0603036742,
+    "error":null,
+    "warnings":[
+
+    ],
+    "pearson_dispersion":null,
+    "variance_components":null,
+    "random_intercept_covariance":null,
+    "residual_variance":null
+  },
+  {
+    "model":"student_ols_kg_count",
+    "nobs":16389.0,
+    "converged":null,
+    "aic":145893.1225521778,
+    "bic":145916.235649149,
+    "error":null,
+    "warnings":[
+
+    ],
+    "pearson_dispersion":null,
+    "variance_components":null,
+    "random_intercept_covariance":null,
+    "residual_variance":null
+  },
+  {
+    "model":"course_ols_composition",
+    "nobs":1983.0,
+    "converged":null,
+    "aic":17474.6943875639,
+    "bic":17508.248584335,
+    "error":null,
+    "warnings":[
+
+    ],
+    "pearson_dispersion":null,
+    "variance_components":null,
+    "random_intercept_covariance":null,
+    "residual_variance":null
+  },
+  {
+    "model":"course_ols_kg",
+    "nobs":1983.0,
+    "converged":null,
+    "aic":17491.8573455066,
+    "bic":17508.6344438921,
+    "error":null,
+    "warnings":[
+
+    ],
+    "pearson_dispersion":null,
+    "variance_components":null,
+    "random_intercept_covariance":null,
+    "residual_variance":null
+  },
+  {
+    "model":"course_binomial_fixed_course",
+    "nobs":1983.0,
+    "converged":true,
+    "aic":22859.3579826009,
+    "bic":3372.9451948647,
+    "error":null,
+    "warnings":[
+      "The bic value is computed using the deviance formula. After 0.13 this will change to the log-likelihood based formula. This change has no impact on the relative rank of models compared using BIC. You can directly access the log-likelihood version using the `bic_llf` attribute. You can suppress this message by calling statsmodels.genmod.generalized_linear_model.SET_USE_BIC_LLF with True to get the LLF-based version now or False to retainthe deviance version."
+    ],
+    "pearson_dispersion":10.0116536282,
+    "variance_components":null,
+    "random_intercept_covariance":null,
+    "residual_variance":null
+  },
+  {
+    "model":"course_mixed_course_random",
+    "nobs":1983.0,
+    "converged":true,
+    "aic":null,
+    "bic":null,
+    "error":null,
+    "warnings":[
+      "Random effects covariance is singular"
+    ],
+    "pearson_dispersion":null,
+    "variance_components":{
+
+    },
+    "random_intercept_covariance":[
+      [
+        167.1933055099
+      ]
+    ],
+    "residual_variance":264.2405392523
+  },
+  {
+    "model":"course_mixed_kg_course_random",
+    "nobs":1983.0,
+    "converged":true,
+    "aic":null,
+    "bic":null,
+    "error":null,
+    "warnings":[
+      "Random effects covariance is singular"
+    ],
+    "pearson_dispersion":null,
+    "variance_components":{
+
+    },
+    "random_intercept_covariance":[
+      [
+        171.3369184215
+      ]
+    ],
+    "residual_variance":264.7999582544
+  },
+  {
+    "model":"course_mixed_crossed_user_course",
+    "nobs":1983.0,
+    "converged":true,
+    "aic":null,
+    "bic":null,
+    "error":null,
+    "warnings":[
+
+    ],
+    "pearson_dispersion":null,
+    "variance_components":{
+      "course":160.4665515085,
+      "user":87.8946792003
+    },
+    "random_intercept_covariance":[
+
+    ],
+    "residual_variance":167.8699424257
+  }
+]

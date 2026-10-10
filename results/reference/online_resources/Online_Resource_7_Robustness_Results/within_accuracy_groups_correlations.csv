@@ -1,0 +1,4 @@
+﻿strict_accuracy_group,n,pearson_r,pearson_ci_low,pearson_ci_high,pearson_p_unadjusted,spearman_r,predictor,interpretation
+High,5382,-0.017112420549043043,-0.04380977590142179,0.009609357984903368,0.20940483385322672,0.01911294366920656,historical effective-feedback share,"outcome-defined fixed groups; descriptive, range restriction possible"
+Medium,5467,0.004674659161137734,-0.02183690284316463,0.031179651361123474,0.7296709745749492,0.015090806465781943,historical effective-feedback share,"outcome-defined fixed groups; descriptive, range restriction possible"
+Low,5540,0.008325691466618016,-0.01801186823492465,0.034651704915800004,0.5355462508221362,-0.011613139260037268,historical effective-feedback share,"outcome-defined fixed groups; descriptive, range restriction possible"

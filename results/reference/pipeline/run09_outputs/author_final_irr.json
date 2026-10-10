@@ -1,0 +1,16 @@
+{
+  "python": "3.13.5",
+  "input": "PROJECT_DIRECTORY/新 repo/materials/irr_side_by_side.csv",
+  "scheme": "author-final as implemented in the analysis pipeline (historical mapping)",
+  "kappa_raw_five_category": 0.7159763313609467,
+  "kappa_author_final_coder_vs_coder": 0.7433155080213903,
+  "kappa_coder1_vs_author_final": 0.6683937823834197,
+  "kappa_coder2_vs_author_final": 0.7551020408163265,
+  "kappa_mean_coder_vs_author_final": 0.711747911599873,
+  "agreements_raw": 13,
+  "notes": [
+    "Raw five-category κ = .716 (13/16 agreements), as reported in Section 3.4.4.",
+    "Author-final coder-vs-coder κ = .743; mean coder-vs-author-final κ = .712 under the as-implemented mapping.",
+    "The previously documented values .796 (mean coder-vs-final) correspond to the documented scheme with Pop-up Reflection Question at Process and TA Answer Browser excluded; they are superseded by the as-implemented values reported here."
+  ]
+}

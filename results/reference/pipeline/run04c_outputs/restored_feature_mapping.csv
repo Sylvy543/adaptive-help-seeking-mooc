@@ -1,0 +1,17 @@
+﻿base_feature,coder1,coder2,restored_category,basis,source,interactions_main_sample
+知识图谱点击,Process,Process,Process,raw coder agreement,materials/irr_side_by_side.csv,41848
+预设问答,Task,Task,Task,raw coder agreement,materials/irr_side_by_side.csv,14206
+来自mooccube,Task,Task,Task,raw coder agreement,materials/irr_side_by_side.csv,7800
+来自图灵机器人,Self-Regulation,Self,Self,documented adjudication,materials/adjudications.md,4577
+来自baidu,Task,Task,Task,raw coder agreement,materials/irr_side_by_side.csv,3785
+来自baike,Task,Task,Task,raw coder agreement,materials/irr_side_by_side.csv,3166
+作诗,Other,Other,Other,raw coder agreement,materials/irr_side_by_side.csv,2887
+来自Faq,Other,Other,Other,raw coder agreement,materials/irr_side_by_side.csv,2364
+来自Aminer,Task,Process,Process,documented adjudication,materials/adjudications.md,2054
+助教回答,Other,Task,Other,documented adjudication,materials/adjudications.md,758
+飘窗回答,Process,Process,Process,raw coder agreement,materials/irr_side_by_side.csv,753
+cannot_answer,Other,Other,Other,raw coder agreement,materials/irr_side_by_side.csv,599
+问助教,Other,Other,Other,raw coder agreement,materials/irr_side_by_side.csv,393
+加减乘除,Other,Other,Other,raw coder agreement,materials/irr_side_by_side.csv,288
+脏问题,Other,Other,Other,raw coder agreement,materials/irr_side_by_side.csv,218
+来自课程信息,Other,Other,Other,raw coder agreement,materials/irr_side_by_side.csv,119

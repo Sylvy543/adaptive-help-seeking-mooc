@@ -1,0 +1,17 @@
+feature_en,feature_cn,coder1_raw,coder2_raw,coder1_remapped,coder2_remapped,author_final_as_implemented
+Knowledge Graph Click,知识图谱点击,Process,Process,Process,Process,Process
+Preset Q&A,预设问答,Task,Task,Task,Task,Task
+From MOOCCube (Knowledge Base),来自mooccube,Task,Task,Task,Task,Process
+From Turing Bot (General Chatbot),来自图灵机器人,Self-Regulation,Self,Self-Regulation,Self,Self
+From Baidu (Search Engine),来自baidu,Task,Task,Task,Task,Task
+From Baike (Encyclopedia),来自baike,Task,Task,Task,Task,Task
+Poetry Composition,作诗,Other,Other,Self,Self,Self
+From FAQ (Platform Help),来自Faq,Other,Other,Self-Regulation,Self-Regulation,Self-Regulation
+From Aminer (Academic Search),来自Aminer,Task,Process,Task,Process,Process
+TA Answer Browser,助教回答,Other,Task,Self-Regulation,Task,Self-Regulation
+Pop-up Reflection Question,飘窗回答,Process,Process,Process,Process,Self-Regulation
+System Cannot Answer,cannot_answer,Other,Other,Excluded,Excluded,Excluded
+Ask TA (Human),问助教,Other,Other,Self-Regulation,Self-Regulation,Self-Regulation
+Arithmetic Calculator,加减乘除,Other,Other,Task,Task,Task
+Inappropriate Input (Filtered),脏问题,Other,Other,Excluded,Excluded,Excluded
+From Course Information,来自课程信息,Other,Other,Task,Task,Task

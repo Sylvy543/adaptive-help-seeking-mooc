@@ -1,0 +1,2 @@
+n_students,n_accuracy_changed,pct_accuracy_changed,mean_strict_minus_historical_pp,median_strict_minus_historical_pp,historical_accuracy_mean_pct,strict_accuracy_mean_pct,difference_direction,unit
+16389,1064,6.492159375190678,-0.16541007169511887,0.0,73.50891105784905,73.34350098615394,strict minus historical,percentage points; equal student weights

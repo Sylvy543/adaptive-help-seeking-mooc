@@ -1,0 +1,13 @@
+{
+  "n_items": 16,
+  "agreements": 13,
+  "kappa_recomputed": 0.7159763313609467,
+  "kappa_boot_ci": [
+    0.4319526627218935,
+    1.0
+  ],
+  "kappa_boot_B": 10000,
+  "kappa_boot_seed": 20260921,
+  "valid_bootstrap_resamples": 10000,
+  "note": "Item resampling; unchanged raw five-category ratings. Deterministic author remapping is a separate analysis."
+}

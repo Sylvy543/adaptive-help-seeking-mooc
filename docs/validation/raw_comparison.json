@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "tables": [
+    {
+      "table": "rebuilt_student_audit.csv",
+      "rows": 16389,
+      "different_columns": []
+    },
+    {
+      "table": "feature_counts_long.csv",
+      "rows": 35029,
+      "different_columns": []
+    },
+    {
+      "table": "unique_course_binary_audit.csv",
+      "rows": 2496,
+      "different_columns": []
+    },
+    {
+      "table": "feature_mapping_audit.csv",
+      "rows": 26,
+      "different_columns": []
+    }
+  ]
+}

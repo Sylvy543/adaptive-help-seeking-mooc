@@ -1,0 +1,49 @@
+source,variable,method,stat,raw_p,group,bh_q,reviewer_focus,p_method,family_id
+correlation,ai_frequency,pearson,0.0063138273229495405,0.41895266027565004,student_correlation,0.50274319233078,False,scipy.stats.pearsonr parametric,04c_selected_exploratory_48
+correlation,ai_frequency,spearman,-0.014796845237930642,0.0581925802008025,student_correlation,0.10293470875064091,False,scipy.stats.spearmanr asymptotic,04c_selected_exploratory_48
+correlation,log_ai_frequency,pearson,0.002485446454625325,0.7503621251076297,student_correlation,0.8003862667814716,False,scipy.stats.pearsonr parametric,04c_selected_exploratory_48
+correlation,historical_ef,pearson,-0.10269518495738755,1.1311445160623711e-39,student_correlation,3.3934335481871136e-39,False,scipy.stats.pearsonr parametric,04c_selected_exploratory_48
+correlation,historical_ef,spearman,-0.10284391761075456,8.76908101987261e-40,student_correlation,2.806105926359235e-39,False,scipy.stats.spearmanr asymptotic,04c_selected_exploratory_48
+correlation,kg_pct,pearson,-0.10681255351942277,8.570740954841336e-43,student_correlation,4.1139556583238415e-42,True,scipy.stats.pearsonr parametric,04c_selected_exploratory_48
+correlation,kg_pct,spearman,-0.11672824938774491,8.080763330929226e-51,student_correlation,7.757532797692057e-50,True,scipy.stats.spearmanr asymptotic,04c_selected_exploratory_48
+correlation,kg_count,pearson,-0.009171832099217011,0.24035146225649903,student_correlation,0.3362052506227514,False,scipy.stats.pearsonr parametric,04c_selected_exploratory_48
+correlation,kg_count,spearman,-0.12310476943651952,2.3080411650033425e-56,student_correlation,3.692865864005348e-55,False,scipy.stats.spearmanr asymptotic,04c_selected_exploratory_48
+correlation,log_kg_count,pearson,-0.08261138628782475,3.2053528939940233e-26,student_correlation,8.097733626932269e-26,False,scipy.stats.pearsonr parametric,04c_selected_exploratory_48
+correlation,kg_any,pearson,-0.11235289935007318,3.450942967204341e-47,student_correlation,1.840502915842315e-46,False,scipy.stats.pearsonr parametric,04c_selected_exploratory_48
+correlation,kg_any,spearman,-0.13416756205774133,1.0658364580900159e-66,student_correlation,5.1160149988320765e-65,False,scipy.stats.spearmanr asymptotic,04c_selected_exploratory_48
+correlation,kg_moved_to_task,pearson,0.024566512395177917,0.0016595736989606148,student_correlation,0.00318638150200438,False,scipy.stats.pearsonr parametric,04c_selected_exploratory_48
+correlation,kg_moved_to_task,spearman,0.010980982532656095,0.15980865978754383,student_correlation,0.23244895969097285,False,scipy.stats.spearmanr asymptotic,04c_selected_exploratory_48
+correlation,historical_other_share,pearson,0.002641529603810736,0.7352560498176309,student_correlation,0.8003862667814716,False,scipy.stats.pearsonr parametric,04c_selected_exploratory_48
+correlation,historical_other_share,spearman,-0.0036001589025276347,0.6449012114470303,student_correlation,0.7550062963282306,False,scipy.stats.spearmanr asymptotic,04c_selected_exploratory_48
+correlation,historical_ef_excluding_other_denominator,pearson,-0.10337254532747925,4.684580977012548e-40,student_correlation,1.6061420492614448e-39,False,scipy.stats.pearsonr parametric,04c_selected_exploratory_48
+correlation,historical_ef_excluding_other_denominator,spearman,-0.10391528201154435,1.840899554560483e-40,student_correlation,6.797167586069476e-40,False,scipy.stats.spearmanr asymptotic,04c_selected_exploratory_48
+correlation,other_process_pct,pearson,-0.01280695394819692,0.10111283344437705,student_correlation,0.16178053351100327,False,scipy.stats.pearsonr parametric,04c_selected_exploratory_48
+correlation,other_process_pct,spearman,-0.03353184020015596,1.7579090895378567e-05,student_correlation,3.835438013537142e-05,False,scipy.stats.spearmanr asymptotic,04c_selected_exploratory_48
+correlation,other_process_count,pearson,-0.0005897175706293984,0.9398251604973809,student_correlation,0.9505193644803962,False,scipy.stats.pearsonr parametric,04c_selected_exploratory_48
+correlation,other_process_count,spearman,-0.033324412280873496,1.980878807806677e-05,student_correlation,4.134007946726978e-05,False,scipy.stats.spearmanr asymptotic,04c_selected_exploratory_48
+correlation,task_pct_neutral,pearson,0.09735214966060173,8.285808792544156e-36,student_correlation,2.3395224826007028e-35,False,scipy.stats.pearsonr parametric,04c_selected_exploratory_48
+correlation,task_pct_neutral,spearman,0.09200295867986341,3.797213284615232e-32,student_correlation,1.0125902092307286e-31,False,scipy.stats.spearmanr asymptotic,04c_selected_exploratory_48
+student_ols_log_frequency,log_ai_frequency,ols_hc3,0.0694884048013081,0.7378793812127513,student_ols,0.8003862667814716,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+student_ols_kg_share,kg_pct10,ols_hc3,-0.4927986703500639,1.0130596537053016e-41,student_ols,4.4206239434413163e-41,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+student_ols_kg_count,kg_count,ols_hc3,-0.0238677275723741,0.3677783876289333,student_ols,0.48696135864681267,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+student_ols_log_kg_count,log_kg_count,ols_hc3,-3.2920831652264964,2.638846304991202e-41,student_ols,1.0555385219964808e-40,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+student_ols_kg_any,kg_any,ols_hc3,-4.954466463921663,1.704378673631097e-47,student_ols,1.0226272041786582e-46,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+course_mixed_crossed_user_course,kg_pct10,mixed,-0.3875576753443642,0.1294948180317796,course_model,0.19424222704766939,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+course_mixed_crossed_user_course,other_process_pct10,mixed,-0.713572796759924,0.0285605871147019,course_model,0.0527272377502189,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+course_mixed_crossed_user_course,task_pct_neutral10,mixed,-0.4101084169037276,0.125431012355779,course_model,0.19421576106701263,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+course_mixed_crossed_user_course,selfreg_pct_neutral10,mixed,-0.2735265524419012,0.3793907189921603,course_model,0.48696135864681267,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+course_mixed_crossed_user_course,log_ai_frequency,mixed,-0.94069468555806,0.0600452467712072,course_model,0.10293470875064091,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+course_binomial_fixed_course,kg_pct10,glm_binomial,-0.008200413464347,0.7803813641022292,course_model,0.8143109886284131,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+course_binomial_fixed_course,other_process_pct10,glm_binomial,-0.0308209759185926,0.4163719681063088,course_model,0.50274319233078,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+course_binomial_fixed_course,task_pct_neutral10,glm_binomial,-0.0139024010278303,0.6624143410171728,course_model,0.7570449611624832,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+course_binomial_fixed_course,selfreg_pct_neutral10,glm_binomial,-0.0020930656879016,0.9505193644803962,course_model,0.9505193644803962,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+course_binomial_fixed_course,log_ai_frequency,glm_binomial,-0.0507214787273109,0.2451496619124229,course_model,0.3362052506227514,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+tertile_high_vs_low,ai_frequency,welch,0.335556414146902,0.3855110755953933,tertile,0.48696135864681267,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+tertile_high_vs_low,kg_pct,welch,-13.853968327284626,4.713715230114929e-57,tertile,1.131291655227583e-55,True,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+tertile_high_vs_low,kg_count,welch,-0.3845048409794915,0.092690507017939,tertile,0.1534187702365887,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+tertile_high_vs_low,other_process_pct,welch,-1.599196865647487,0.0010193416315359,tertile,0.0020386832630718,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+tertile_high_vs_low,task_pct_neutral,welch,10.680581494841018,3.4801836896640748e-50,tertile,2.7841469517312598e-49,False,retained fitted-model/Welch p from 04b,04c_selected_exploratory_48
+correlation,restored_process_selfreg_pct,pearson,-0.11286499374123145,1.3192009608079564e-47,student_correlation,9.045949445540271e-47,False,scipy.stats.pearsonr parametric,04c_selected_exploratory_48
+correlation,restored_process_selfreg_pct,spearman,-0.12187422611913609,2.861639403848971e-55,student_correlation,3.4339672846187654e-54,False,scipy.stats.spearmanr asymptotic,04c_selected_exploratory_48
+correlation,restored_other_pct,pearson,0.05677179314829032,3.5104415486313907e-13,student_correlation,8.425059716715338e-13,False,scipy.stats.pearsonr parametric,04c_selected_exploratory_48
+correlation,restored_other_pct,spearman,0.05606550386076915,6.840724305815597e-13,student_correlation,1.563594127043565e-12,False,scipy.stats.spearmanr asymptotic,04c_selected_exploratory_48
