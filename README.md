@@ -30,6 +30,7 @@ Outputs go to `outputs/`, with progress and warnings in `outputs/logs/`. Final n
 | `analysis/` | Raw reconstruction, strict models, diagnostics, sensitivity analyses, IRR and final table generation |
 | `data/inputs/` | Audited student counts, feature counts, unique-course binary response counts and historical feature mapping |
 | `materials/` | OR1 coding manual, unchanged OR2 coder workbooks, adjudications and OR3 report |
+| `online_resources/` | Submission-format Online Resources package (OR1–OR7) mirrored for reviewer access; content identical to `materials/` and the CSV tables |
 | `results/reference/online_resources/` | Final OR4–OR7 numerical tables as CSVs, with field dictionaries |
 | `results/reference/pipeline/` | Supporting archived stage results for checking and figure reconstruction |
 | `figures/published/` | Author-supplied latest Figure 1–6 and OR3 Figure 1, in PNG and PDF |
