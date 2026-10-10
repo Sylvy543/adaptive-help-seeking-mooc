@@ -34,6 +34,3 @@ All inferential analyses are exploratory. The two reported BH families are separ
 SOURCE_MANIFEST.csv records the source pipeline outputs and transformations for newly curated numerical files; its worksheet column locates tables consolidated into OR5/OR6/OR7 workbooks. PACKAGE_CHECKSUMS.sha256 records the final archive files, excluding itself. These support traceability and file integrity, not an additional scientific validation claim.
 
 For the original analysis code, see the code repository identified in Section 3.5 of the manuscript. The supplementary package does not replace the raw MOOCCubeX source data or the analysis scripts.
-
-中文说明
-OR1–OR7均已按正文编号整理。每个资源文件夹中都有说明文件。OR5、OR6、OR7分别以一个Excel工作簿和一个README交付。OR5的四个工作表包含课程数据、全体学生的新旧准确率比较及两张汇总表；OR6包括课程模型诊断与10次留一课程分析；OR7采用修正后的区间和两组独立的多重检验结果。请保留文件夹结构一起打包。
