@@ -7,7 +7,7 @@
 | Deterministic author remapping; OR1 A.5 | `compute_irr_author_final.py` | `run09_outputs/author_final_irr.json`; .743/.668/.755, mean .712 |
 | Frequency checks, §4.2/4.4 | `08_final_checks.py` | OR7 frequency operationalisations, HC3 trends and Tukey comparisons |
 | High/low historical EF share, §4.3 | `07_table6_trend_cis.py` | `run07_outputs/section43_group_comparison.csv`; strict and historical outcome comparisons |
-| Performance trends, §4.5/Table 6 | `07_table6_trend_cis.py` | `run07_outputs/` |
+| Performance trends, §4.5/Table 5 | `07_table6_trend_cis.py` | `run07_outputs/` |
 | KG classification sensitivity, §4.6; OR3 | `04b_corrections.py`, `04c_mapping_and_pvalues.py`, `OR3_recompute_and_plot.py` | OR7 correlations; regenerated OR3 descriptive tables and figure |
 | Within-performance groups, §4.7.1 | `curate_online_resources.py` | OR7 within-group table |
 | Feature decomposition, §4.7.2; OR4 | `three_category_analysis.py`, `curate_online_resources.py` | Four OR4 CSVs |
