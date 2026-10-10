@@ -156,7 +156,6 @@ run.py,,,Portable executable implementation; cleaned and tested in the final end
 tools/compare_raw_inputs.py,,,Portable executable implementation; cleaned and tested in the final end-to-end run,c27b3c62465b7e5d7b25ed440974f2da161ac2e6738efa2f0f207b6808aa328b
 tools/compare_results.py,,,Portable executable implementation; cleaned and tested in the final end-to-end run,45d152b71d7bfac6fc78309c87e729e31d437697f08a0ea36a79be40b627469a
 tools/verify_repository.py,,,Portable executable implementation; cleaned and tested in the final end-to-end run,d752bf4fd93fd160cfb4606e143cba937319fa792c75ef741efc8e09278c7d25
-online_resources/.DS_Store,修改后的 OR/.DS_Store,,Unchanged copy from the submission Online Resources package,aaa4b95a6e9847952d5bee5ec8148f24727ab8d337af1282aa2b353157c4e5c1
 online_resources/Online_Resource_1_Coding_Manual.docx,修改后的 OR/Online_Resource_1_Coding_Manual.docx,,Unchanged copy from the submission Online Resources package,84abef98c25910a48c26f0f81f3b51081d8148e633a3d59bfb86e12302ab2d2f
 online_resources/Online_Resource_2_Coder_Ratings/Coding_Sheet_Coder1.xlsx,修改后的 OR/Online_Resource_2_Coder_Ratings/Coding_Sheet_Coder1.xlsx,,Unchanged copy from the submission Online Resources package,f9fbcb337cb9fe450fd890edda726df427ccdead96c2d2eb518382285cad177b
 online_resources/Online_Resource_2_Coder_Ratings/Coding_Sheet_Coder2.xlsx,修改后的 OR/Online_Resource_2_Coder_Ratings/Coding_Sheet_Coder2.xlsx,,Unchanged copy from the submission Online Resources package,ec3d5fd0e50c8d8bd7e68391a12cb2ee6bddf9a0ca8b46c36745b3d85c152a80
